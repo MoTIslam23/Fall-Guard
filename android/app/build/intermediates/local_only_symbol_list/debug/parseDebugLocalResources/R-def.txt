@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color background
+color divider
+color green_success
+color green_success_light
+color orange_alert
+color orange_alert_light
+color red_alert
+color red_alert_light
+color surface_white
+color teal_container
+color teal_light
+color teal_primary
+color teal_primary_dark
+color text_hint
+color text_primary
+color text_secondary
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string app_tagline
+string channel_desc
+string channel_name
+string monitoring_active
+string monitoring_subtitle
+string privacy_note
+style Theme.FallGuard

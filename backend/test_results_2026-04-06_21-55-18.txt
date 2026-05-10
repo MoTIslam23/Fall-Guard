@@ -1,0 +1,100 @@
+Results saved to: /Users/moislam/Desktop/FallGuard/backend/test_results_2026-04-06_21-55-18.txt
+
+======================================================================
+FallGuard — CSV Algorithm Test
+Data directory : /Users/moislam/Downloads/test_data
+Scenarios found: 7
+======================================================================
+  Free-fall threshold : accel < 2.0 m/s² for ≥ 250 ms
+  Impact threshold    : accel > 20.0 m/s²
+  Rotation threshold  : gyro  > 3.0 rad/s
+  Impact window       : 2000 ms after free-fall ends
+======================================================================
+
+Scenario : Drop 2
+Folder   : Drop 2 2026-04-06 17-14-20
+Result   : FALL DETECTED
+Expected : should be FALL  →  [PASS]
+  Duration         : 5.14 s  (1028 events)
+  Accel min/max    : 0.10 / 264.33 m/s²
+  Gyro max         : 20.04 rad/s
+  Low-accel periods: 1  (accel < 2.0 m/s²)
+  Impact spikes    : 8  (accel > 20.0 m/s²)
+  Rotation spikes  : 48  (gyro > 3.0 rad/s)
+----------------------------------------------------------------------
+
+Scenario : Fall pocket
+Folder   : Fall pocket 2026-04-06 17-15-38
+Result   : no fall
+Expected : borderline scenario  →  [N/A (ambiguous)]
+  Duration         : 9.05 s  (1810 events)
+  Accel min/max    : 1.69 / 42.40 m/s²
+  Gyro max         : 15.36 rad/s
+  Low-accel periods: 1  (accel < 2.0 m/s²)
+  Impact spikes    : 14  (accel > 20.0 m/s²)
+  Rotation spikes  : 185  (gyro > 3.0 rad/s)
+----------------------------------------------------------------------
+
+Scenario : Jog
+Folder   : Jog 2026-04-06 17-12-47
+Result   : no fall
+Expected : should be NO FALL  →  [PASS]
+  Duration         : 15.59 s  (3116 events)
+  Accel min/max    : 3.79 / 78.79 m/s²
+  Gyro max         : 13.63 rad/s
+  Low-accel periods: 0  (accel < 2.0 m/s²)
+  Impact spikes    : 318  (accel > 20.0 m/s²)
+  Rotation spikes  : 614  (gyro > 3.0 rad/s)
+----------------------------------------------------------------------
+
+Scenario : Regular use
+Folder   : Regular use 2026-04-06 17-11-31
+Result   : no fall
+Expected : should be NO FALL  →  [PASS]
+  Duration         : 47.41 s  (9478 events)
+  Accel min/max    : 1.29 / 59.63 m/s²
+  Gyro max         : 14.00 rad/s
+  Low-accel periods: 5  (accel < 2.0 m/s²)
+  Impact spikes    : 47  (accel > 20.0 m/s²)
+  Rotation spikes  : 987  (gyro > 3.0 rad/s)
+----------------------------------------------------------------------
+
+Scenario : Sitting standing
+Folder   : Sitting standing 2026-04-06 17-19-23
+Result   : no fall
+Expected : should be NO FALL  →  [PASS]
+  Duration         : 15.89 s  (3177 events)
+  Accel min/max    : 3.46 / 22.57 m/s²
+  Gyro max         : 6.31 rad/s
+  Low-accel periods: 0  (accel < 2.0 m/s²)
+  Impact spikes    : 5  (accel > 20.0 m/s²)
+  Rotation spikes  : 137  (gyro > 3.0 rad/s)
+----------------------------------------------------------------------
+
+Scenario : Soft drop
+Folder   : Soft drop 2026-04-06 17-09-55
+Result   : FALL DETECTED
+Expected : borderline scenario  →  [N/A (ambiguous)]
+  Duration         : 7.71 s  (1542 events)
+  Accel min/max    : 0.08 / 311.30 m/s²
+  Gyro max         : 18.12 rad/s
+  Low-accel periods: 5  (accel < 2.0 m/s²)
+  Impact spikes    : 10  (accel > 20.0 m/s²)
+  Rotation spikes  : 35  (gyro > 3.0 rad/s)
+----------------------------------------------------------------------
+
+Scenario : Walking
+Folder   : Walking 2026-04-06 17-08-20
+Result   : no fall
+Expected : should be NO FALL  →  [PASS]
+  Duration         : 45.05 s  (9005 events)
+  Accel min/max    : 2.30 / 23.52 m/s²
+  Gyro max         : 7.10 rad/s
+  Low-accel periods: 0  (accel < 2.0 m/s²)
+  Impact spikes    : 9  (accel > 20.0 m/s²)
+  Rotation spikes  : 435  (gyro > 3.0 rad/s)
+----------------------------------------------------------------------
+
+SUMMARY: 5/5 scenarios with clear expectations passed.
+All expected scenarios passed!
+======================================================================

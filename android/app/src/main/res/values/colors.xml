@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_primary">#3A8C7E</color>
+    <color name="teal_primary_dark">#2D7066</color>
+    <color name="teal_light">#5BB3A5</color>
+    <color name="teal_container">#C8E8E3</color>
+    <color name="background">#F5F5F5</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#999999</color>
+    <color name="red_alert">#E05252</color>
+    <color name="red_alert_light">#FADADADA</color>
+    <color name="orange_alert">#F0A830</color>
+    <color name="orange_alert_light">#FFF3E0</color>
+    <color name="green_success">#4CAF50</color>
+    <color name="green_success_light">#E8F5E9</color>
+    <color name="divider">#E0E0E0</color>
+</resources>

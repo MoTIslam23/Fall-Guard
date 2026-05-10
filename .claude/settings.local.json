@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -L \"FallGuardTheme\\\\|ui.theme\" /Users/moislam/Desktop/FallGuard/android/app/src/main/java/com/example/fallguard/ui/screens/*.kt)",
+      "Bash(gradle wrapper:*)",
+      "Bash(./gradlew compileDebugKotlin)",
+      "Bash(./gradlew compileDebugKotlin --stacktrace)",
+      "Bash(./gradlew assembleDebug)"
+    ]
+  }
+}

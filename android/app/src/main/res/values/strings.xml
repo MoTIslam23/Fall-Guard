@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FallGuard</string>
+    <string name="app_tagline">Smart fall detection that keeps\nyou and your loved ones safe</string>
+    <string name="privacy_note">Your data stays private and secure!</string>
+    <string name="monitoring_active">Monitoring Active</string>
+    <string name="monitoring_subtitle">Your phone is watching for falls</string>
+    <string name="channel_name">Fall Detection</string>
+    <string name="channel_desc">Monitors device sensors for fall events</string>
+</resources>

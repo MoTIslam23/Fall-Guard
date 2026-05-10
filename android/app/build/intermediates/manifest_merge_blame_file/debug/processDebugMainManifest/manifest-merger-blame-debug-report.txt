@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fallguard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Sensor permissions -->
+12    <uses-permission android:name="android.permission.BODY_SENSORS" />
+12-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:5:5-71
+12-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+13-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:6:5-85
+13-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:6:22-82
+14    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+14-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:7:5-79
+14-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:7:22-76
+15
+16    <!-- Notifications & foreground service -->
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:10:5-77
+17-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:10:22-74
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:11:5-77
+18-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:11:22-74
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH" />
+19-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:12:5-84
+19-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:12:22-81
+20
+21    <!-- Network (reach backend on emulator localhost) -->
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:15:5-67
+22-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:15:22-64
+23
+24    <permission
+24-->[androidx.core:core:1.13.1] /Users/moislam/.gradle/caches/8.11.1/transforms/e1da249c65f68ee69e34632aac2b9187/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+25        android:name="com.example.fallguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.13.1] /Users/moislam/.gradle/caches/8.11.1/transforms/e1da249c65f68ee69e34632aac2b9187/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.13.1] /Users/moislam/.gradle/caches/8.11.1/transforms/e1da249c65f68ee69e34632aac2b9187/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.example.fallguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.13.1] /Users/moislam/.gradle/caches/8.11.1/transforms/e1da249c65f68ee69e34632aac2b9187/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.13.1] /Users/moislam/.gradle/caches/8.11.1/transforms/e1da249c65f68ee69e34632aac2b9187/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:17:5-41:19
+31        android:allowBackup="true"
+31-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:18:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.13.1] /Users/moislam/.gradle/caches/8.11.1/transforms/e1da249c65f68ee69e34632aac2b9187/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:19:9-43
+36        android:label="@string/app_name"
+36-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:20:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:21:9-54
+38        android:supportsRtl="true"
+38-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:22:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.FallGuard"
+40-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:23:9-47
+41        android:usesCleartextTraffic="true" >
+41-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:24:9-44
+42        <activity
+42-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:26:9-34:20
+43            android:name="com.example.fallguard.MainActivity"
+43-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:27:13-41
+44            android:exported="true"
+44-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:28:13-36
+45            android:windowSoftInputMode="adjustResize" >
+45-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:29:13-55
+46            <intent-filter>
+46-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:30:13-33:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:31:17-69
+47-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:31:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:32:17-77
+49-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:32:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:36:9-39:40
+54            android:name="com.example.fallguard.sensor.FallDetectionService"
+54-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:37:13-56
+55            android:exported="false"
+55-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:39:13-37
+56            android:foregroundServiceType="health" />
+56-->/Users/moislam/Desktop/FallGuard/android/app/src/main/AndroidManifest.xml:38:13-51
+57
+58        <activity
+58-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/moislam/.gradle/caches/8.11.1/transforms/a27969aed9603b961d187fe874eae90b/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:23:9-25:39
+59            android:name="androidx.activity.ComponentActivity"
+59-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/moislam/.gradle/caches/8.11.1/transforms/a27969aed9603b961d187fe874eae90b/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:24:13-63
+60            android:exported="true" />
+60-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/moislam/.gradle/caches/8.11.1/transforms/a27969aed9603b961d187fe874eae90b/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:25:13-36
+61        <activity
+61-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/moislam/.gradle/caches/8.11.1/transforms/7cddfe9f7502174db273792773f6df95/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+62            android:name="androidx.compose.ui.tooling.PreviewActivity"
+62-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/moislam/.gradle/caches/8.11.1/transforms/7cddfe9f7502174db273792773f6df95/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+63            android:exported="true" />
+63-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/moislam/.gradle/caches/8.11.1/transforms/7cddfe9f7502174db273792773f6df95/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.3.0] /Users/moislam/.gradle/caches/8.11.1/transforms/a3196b8ecbff88faece4bde9d9e5a448/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.3.0] /Users/moislam/.gradle/caches/8.11.1/transforms/a3196b8ecbff88faece4bde9d9e5a448/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+67            android:authorities="com.example.fallguard.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.3.0] /Users/moislam/.gradle/caches/8.11.1/transforms/a3196b8ecbff88faece4bde9d9e5a448/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.3.0] /Users/moislam/.gradle/caches/8.11.1/transforms/a3196b8ecbff88faece4bde9d9e5a448/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.emoji2:emoji2:1.3.0] /Users/moislam/.gradle/caches/8.11.1/transforms/a3196b8ecbff88faece4bde9d9e5a448/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.3.0] /Users/moislam/.gradle/caches/8.11.1/transforms/a3196b8ecbff88faece4bde9d9e5a448/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+71                android:value="androidx.startup" />
+71-->[androidx.emoji2:emoji2:1.3.0] /Users/moislam/.gradle/caches/8.11.1/transforms/a3196b8ecbff88faece4bde9d9e5a448/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.8.1] /Users/moislam/.gradle/caches/8.11.1/transforms/7fbe52b2f68f7c795d011d8e047a16f7/transformed/lifecycle-process-2.8.1/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.8.1] /Users/moislam/.gradle/caches/8.11.1/transforms/7fbe52b2f68f7c795d011d8e047a16f7/transformed/lifecycle-process-2.8.1/AndroidManifest.xml:30:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.8.1] /Users/moislam/.gradle/caches/8.11.1/transforms/7fbe52b2f68f7c795d011d8e047a16f7/transformed/lifecycle-process-2.8.1/AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+77                android:value="androidx.startup" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+78        </provider>
+79
+80        <receiver
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+81            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+82            android:directBootAware="false"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+83            android:enabled="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+84            android:exported="true"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+85            android:permission="android.permission.DUMP" >
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+87                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+90                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+93                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+96                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/moislam/.gradle/caches/8.11.1/transforms/ff2e477dea60465cb3a1fdeadbb671e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+97            </intent-filter>
+98        </receiver>
+99    </application>
+100
+101</manifest>
